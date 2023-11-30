@@ -51,8 +51,11 @@ header #feedback {
   width: 80px;
 }
 
-header #LogoAvCraftvilla {
+header #LogoAvCraftvillalink {
   margin-left: 82px;
+}
+
+header #LogoAvCraftvilla {
   width: 203px;
   height: auto;
 }
