@@ -1,6 +1,9 @@
 * {
   margin: 0;
 }
+main {
+  height: 759px;
+}
 main #booking {
   background-color: #af034f;
   width: 710px;
@@ -9,10 +12,8 @@ main #booking {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  gap: 20px 100px;
 }
-#booking div {
-  margin: 0;
+#booking {
 }
 #logo_box #booking_logo {
   width: 155px;
