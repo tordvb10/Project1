@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
@@ -11,19 +15,45 @@
     <header>
       <div>
         <a href="index.html"
-          ><img src="img/craftsvilla.webp" alt="LogoAvCraftvilla"
+          ><img
+            id="LogoAvCraftvilla"
+            src="img/craftsvilla.webp"
+            alt="LogoAvCraftvilla"
         /></a>
       </div>
-      <div>
-        <div class=""><a href="gallery.html">Gallery</a></div>
-        <div class=""><a href="booking.html">Booking</a></div>
-        <div class=""><a href="feedback.html">Feedback</a></div>
+      <div id="menubuttons">
+        <div class="menulinks" id="gallery">
+          <a href="gallery.html">Gallery</a>
+        </div>
+        <div class="menulinks" id="booking">
+          <a href="booking.html">Booking</a>
+        </div>
+        <div class="menulinks" id="feedback">
+          <a href="feedback.html">Feedback</a>
+        </div>
       </div>
     </header>
     <main>
-      <section>Hei, det er moe</section>
+      <section></section>
       <section></section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-containers">
+        <div class="footer-title">E-mail:</div>
+        <div class="footer-content">Some email-address</div>
+      </div>
+      <div class="footer-containers">
+        <div class="footer-title">Contact us:</div>
+        <div class="footer-content">Some phonenumber</div>
+      </div>
+      <div class="footer-containers">
+        <div class="footer-title">Office address:</div>
+        <div class="footer-content">Some postal address</div>
+      </div>
+      <div class="footer-containers">
+        <div class="footer-title">Follow us::</div>
+        <div class="footer-content">Some sosial media icons</div>
+      </div>
+    </footer>
   </body>
 </html>
