@@ -1,8 +1,23 @@
-#booking {
+* {
+  margin: 0;
+}
+main #booking {
   background-color: #af034f;
   width: 710px;
   height: 540px;
+  font-family: "Kaisei Opti", serif;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px 100px;
 }
-#booking_logo {
+#booking div {
+  margin: 0;
+}
+#logo_box #booking_logo {
   width: 155px;
+  border-radius: 5px;
+}
+#booking_title h1 {
+  color: white;
 }
