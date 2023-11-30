@@ -3,22 +3,85 @@
 }
 main {
   height: 759px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 main #booking {
+  margin: 0;
   background-color: #af034f;
-  width: 710px;
-  height: 540px;
+  width: 699px;
+  height: 510px;
+  padding: 13px 9px;
   font-family: "Kaisei Opti", serif;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-radius: 13px;
 }
-#booking {
+#logo_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #logo_box #booking_logo {
   width: 155px;
   border-radius: 5px;
 }
+#booking_title {
+  display: flex;
+  padding: 0 50px;
+  align-items: center;
+}
 #booking_title h1 {
-  color: white;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  line-height: normal;
+}
+#booking-containter {
+  display: flex;
+}
+#booking-form {
+  display: flex;
+  border-radius: 20px;
+  border: 3px solid #4c191b;
+  padding: 13px 31px;
+  width: 499px;
+  height: 320px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #fff;
+  gap: 7px;
+}
+.item-con {
+  display: flex;
+  flex-direction: row;
+  width: 424px;
+  height: auto;
+  padding: 6px 0;
+  align-items: center;
+}
+.item-con p {
+  color: #121212;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+.item-con input {
+  border: 1px solid #af034f;
+  border-radius: 11px;
+  padding: 7px 11px;
+  width: 270px;
+  height: auto;
+  text-align: center;
+  font-size: 12px;
+}
+#e-mail {
+  gap: 40px;
 }
