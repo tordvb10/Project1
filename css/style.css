@@ -1,11 +1,59 @@
-#LogoAvCraftvilla {
+html,
+body {
+  margin: 0;
+}
+
+header {
+  height: 132px;
+  align-items: center;
+}
+
+footer,
+header,
+header #menubuttons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+header #menubuttons {
+  width: 410px;
+  margin: auto 50px;
+}
+
+header .menulinks {
+  display: flex;
+  height: 39px;
+  background-color: #af034f;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  box-shadow: inset #4c191b 2px 3px 4px 0.5px;
+}
+header .menulinks a {
+  text-decoration: none;
+  color: #ecfff8;
+  font-family: "Inter", "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+header #gallery {
+  width: 64px;
+}
+header #booking {
+  width: 70px;
+}
+header #feedback {
+  width: 80px;
+}
+
+header #LogoAvCraftvilla {
+  margin-left: 82px;
   width: 203px;
   height: auto;
 }
 
-header,
-#menubuttons {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+footer {
+  justify-content: space-evenly;
+  background-color: #af034f;
 }
