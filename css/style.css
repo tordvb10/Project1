@@ -8,12 +8,16 @@ header {
   align-items: center;
 }
 
+body,
 footer,
 header,
 header #menubuttons {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+}
+body {
+  flex-direction: column;
 }
 
 header #menubuttons {
@@ -56,4 +60,8 @@ header #LogoAvCraftvilla {
 footer {
   justify-content: space-evenly;
   background-color: #af034f;
+}
+
+main {
+  height: 20px;
 }
