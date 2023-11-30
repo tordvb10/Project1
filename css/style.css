@@ -1,3 +1,6 @@
+.interfamily {
+  font-family: "Inter", "Times New Roman", Times, serif;
+}
 html,
 body {
   margin: 0;
@@ -8,6 +11,7 @@ header {
   align-items: center;
 }
 
+footer .footer-containers,
 body,
 footer,
 header,
@@ -37,7 +41,7 @@ header .menulinks {
 header .menulinks a {
   text-decoration: none;
   color: #ecfff8;
-  font-family: "Inter", "Times New Roman", Times, serif;
+
   font-weight: 400;
   font-size: 12px;
 }
@@ -63,4 +67,26 @@ header #LogoAvCraftvilla {
 footer {
   justify-content: space-evenly;
   background-color: #af034f;
+  height: 132px;
+}
+
+footer .footer-containers {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 0px;
+}
+
+footer .footer-containers div {
+  color: #ecfff8;
+}
+
+footer .footer-title {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+footer .footer-content {
+  font-weight: 400;
+  font-size: 15px;
 }
