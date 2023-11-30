@@ -1,0 +1,11 @@
+#LogoAvCraftvilla {
+  width: 203px;
+  height: auto;
+}
+
+header,
+#menubuttons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
