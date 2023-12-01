@@ -3,6 +3,13 @@ main {
   justify-content: center;
   align-items: center;
 }
+main img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: #4c191b solid 1px;
+  padding: 0;
+}
 
 main section {
   display: flex;
@@ -17,10 +24,6 @@ main section > * {
   align-items: center;
 }
 
-main #craftvillashop {
-  width: 100%;
-  height: auto;
-}
 main #contentshop h1,
 main .imgshop {
   max-width: 230px;
@@ -43,4 +46,7 @@ main .shop {
 }
 main .imgshop {
   gap: 25%;
+}
+main #location {
+  width: 70%;
 }

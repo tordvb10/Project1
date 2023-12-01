@@ -42,6 +42,7 @@ header #menubuttons {
 }
 body {
   flex-direction: column;
+  background-color: #d9d9df;
 }
 
 header #menubuttons {
@@ -82,6 +83,8 @@ header #LogoAvCraftvillalink {
 header #LogoAvCraftvilla {
   width: 203px;
   height: auto;
+  border-radius: 5px;
+  border: #4c191b solid 1px;
 }
 
 footer {
