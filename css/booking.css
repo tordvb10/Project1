@@ -2,7 +2,9 @@
   margin: 0;
 }
 main {
-  height: 759px;
+  height: auto;
+  margin: 40px;
+  width: auto;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -10,12 +12,11 @@ main {
 main #booking {
   background-color: #af034f;
   font-family: "Kaisei Opti", serif;
-  width: 699px;
-  height: 510px;
   padding: 13px 9px;
+  border: 1px solid #af034f;
   border-radius: 13px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   gap: 24px;
 }
@@ -40,28 +41,28 @@ main #booking {
   text-align: center;
   line-height: normal;
 }
-#booking-containter {
+#booking-container {
   display: flex;
   padding: 4 0px;
   align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
 #booking-form {
   display: flex;
   border-radius: 20px;
   border: 3px solid #4c191b;
   padding: 13px 31px;
-  width: 499px;
-  height: 320px;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   background-color: #fff;
   gap: 7px;
 }
 .item-con {
   display: flex;
   flex-direction: row;
-  width: 424px;
+  width: auto;
   height: auto;
   padding: 6px 0;
   align-items: center;
@@ -78,7 +79,7 @@ main #booking {
   border: 1px solid #af034f;
   border-radius: 11px;
   padding: 7px 11px;
-  width: 270px;
+  width: auto;
   height: auto;
   text-align: center;
   font-size: 12px;
@@ -86,7 +87,7 @@ main #booking {
 #e-mail {
   gap: 40px;
 }
-#calender {
+#calender-img {
   width: 142px;
   height: 232px;
 }
