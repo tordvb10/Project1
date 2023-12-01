@@ -1,0 +1,23 @@
+main {
+  margin: 56px auto;
+}
+main section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main section > * {
+  justify-content: center;
+  align-items: center;
+}
+
+main #craftvillashop {
+  width: 85%;
+  height: auto;
+}
+main .imgshop {
+  width: 230px;
+  height: auto;
+}

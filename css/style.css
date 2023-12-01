@@ -1,6 +1,24 @@
 .interfamily {
   font-family: "Inter", "Times New Roman", Times, serif;
 }
+
+.contentwrap {
+  flex-wrap: wrap;
+}
+.FlexDirectionRow {
+  display: flex;
+  flex-direction: row;
+}
+.FlexDirectionColomn {
+  display: flex;
+  flex-direction: column;
+}
+
+.ObjectInCenter {
+  justify-content: center;
+  align-items: center;
+}
+
 html,
 body {
   margin: 0;
@@ -11,6 +29,8 @@ header {
   align-items: center;
 }
 
+main section,
+main,
 footer .footer-containers,
 body,
 footer,
@@ -89,4 +109,17 @@ footer .footer-title {
 footer .footer-content {
   font-weight: 400;
   font-size: 15px;
+}
+
+main {
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+  header #LogoAvCraftvillalink {
+    margin-left: 0;
+  }
 }
