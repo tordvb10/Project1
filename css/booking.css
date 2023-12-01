@@ -8,17 +8,16 @@ main {
   flex-direction: row;
 }
 main #booking {
-  margin: 0;
   background-color: #af034f;
+  font-family: "Kaisei Opti", serif;
   width: 699px;
   height: 510px;
   padding: 13px 9px;
-  font-family: "Kaisei Opti", serif;
+  border-radius: 13px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   gap: 24px;
-  border-radius: 13px;
 }
 #logo_box {
   display: flex;
@@ -43,6 +42,8 @@ main #booking {
 }
 #booking-containter {
   display: flex;
+  padding: 4 0px;
+  align-items: center;
 }
 #booking-form {
   display: flex;
@@ -84,4 +85,8 @@ main #booking {
 }
 #e-mail {
   gap: 40px;
+}
+#calender {
+  width: 142px;
+  height: 232px;
 }
