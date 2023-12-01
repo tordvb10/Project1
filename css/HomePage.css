@@ -1,11 +1,15 @@
 main {
   margin: 56px auto;
+  justify-content: center;
+  align-items: center;
 }
+
 main section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 85%;
 }
 
 main section > * {
@@ -14,10 +18,29 @@ main section > * {
 }
 
 main #craftvillashop {
-  width: 85%;
+  width: 100%;
   height: auto;
 }
+main #contentshop h1,
 main .imgshop {
-  width: 230px;
+  max-width: 230px;
   height: auto;
+}
+main #contentshop h4 {
+  max-width: 314px;
+  height: auto;
+  text-align: center;
+}
+
+main #contentshop {
+  width: 90%;
+  height: auto;
+  gap: 30px;
+}
+
+main .shop {
+  padding: 20px 30px;
+}
+main .imgshop {
+  gap: 25%;
 }
