@@ -42,7 +42,6 @@ header #menubuttons {
 }
 body {
   flex-direction: column;
-  background-color: #d9d9df;
 }
 
 header #menubuttons {
