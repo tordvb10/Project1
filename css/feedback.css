@@ -10,3 +10,54 @@ main #smiley {
   width: 1041px;
   height: 315px;
 }
+main button {
+  border-radius: 10px;
+  display: flex;
+  width: 90px;
+  height: 43px;
+  padding: 11px 15px;
+  justify-content: center;
+  align-items: center;
+  background: #af034f;
+}
+main h1 {
+  text-align: center;
+  font-family: "Julee", "Inter", "Times New Roman", Times, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: black;
+}
+
+main h2 {
+  text-align: center;
+  font-family: Julee;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: black;
+}
+
+main p {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: black;
+  width: 1046px;
+}
+main #Button-next {
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+  margin-bottom: 10px;
+}
+main #Button-next:hover {
+}
