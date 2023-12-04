@@ -128,11 +128,4 @@ main {
   header #LogoAvCraftvillalink {
     margin-left: 0;
   }
-  footer .footerskip {
-    flex-direction: column;
-    row-gap: 50px;
-  }
-  footer {
-    height: 264px;
-  }
 }
