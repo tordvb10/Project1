@@ -43,12 +43,15 @@ main section {
   margin: 81px 0;
 }
 main .testimonials,
-main #testimonials {
+main #testimonial,
+.padding {
   gap: 31px;
 }
 main .testimonials {
   background-color: #ecfff8;
   height: 80%;
+  width: 69.4%;
+  padding: 30px 10%;
 }
 main section > * {
   justify-content: center;
