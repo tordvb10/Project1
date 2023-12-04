@@ -1,20 +1,18 @@
-.inputbox {
+main .inputbox {
   width: 70%;
   height: 215px;
   border: 1px solid #a7034b;
-  margin-left: auto;
-  margin-right: auto;
-  vertical-align: text-top;
 }
-
+main section > * {
+  justify-content: center;
+  align-items: center;
+}
 main #smiley {
-  width: 70%;
-  height: auto;
-  justify-self: center;
+  width: cover;
+  height: 315px;
 }
 main button {
   border-radius: 10px;
-  display: flex;
   width: 90px;
   height: 43px;
   padding: 11px 15px;
@@ -45,17 +43,16 @@ main h2 {
 }
 
 main p {
-  font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   color: black;
   width: 70%;
+  text-align: center;
 }
 main #Button-next {
   text-align: center;
-  font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
