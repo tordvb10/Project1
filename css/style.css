@@ -56,15 +56,21 @@ header .menulinks {
   align-items: center;
   justify-content: center;
   border-radius: 25px;
-  box-shadow: inset #4c191b 2px 3px 4px 0.5px;
-}
-header .menulinks a {
+  box-shadow: inset #4c191b -2px -3px 4px 0.5px;
   text-decoration: none;
   color: #ecfff8;
-
   font-weight: 400;
   font-size: 12px;
 }
+
+header .menulinks:hover {
+  box-shadow: inset #4c191b 2px 3px 4px 0.5px;
+}
+
+header .menulinks :active {
+  box-shadow: inset #4c191b 2px 3px 4px 4px;
+}
+
 header #gallery {
   width: 64px;
 }

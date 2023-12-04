@@ -28,3 +28,25 @@ main .center2,
 main .object {
   gap: 30px;
 }
+
+main .buy {
+  display: flex;
+  height: 39px;
+  width: 88px;
+  background-color: #af034f;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  box-shadow: inset #4c191b -2px -3px 4px 0.5px;
+  border: none;
+  text-decoration: none;
+  color: #ecfff8;
+  font-size: 12px;
+}
+main .buy:hover {
+  box-shadow: inset #4c191b 2px 3px 4px 0.5px;
+}
+
+main .buy:active {
+  box-shadow: inset #4c191b 2px 3px 4px 4px;
+}
