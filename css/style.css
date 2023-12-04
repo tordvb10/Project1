@@ -87,6 +87,8 @@ header #LogoAvCraftvilla {
 }
 
 footer {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   background-color: #af034f;
   height: 132px;
@@ -127,5 +129,11 @@ main {
   }
   header #LogoAvCraftvillalink {
     margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 712px) {
+  footer {
+    height: 264px;
   }
 }
