@@ -67,7 +67,7 @@ header .menulinks:hover {
   box-shadow: inset #4c191b 2px 3px 4px 0.5px;
 }
 
-header .menulinks :active {
+header .menulinks:active {
   box-shadow: inset #4c191b 2px 3px 4px 4px;
 }
 

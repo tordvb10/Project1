@@ -48,11 +48,30 @@ main p {
 }
 main #Button-next {
   font-family: "Inter", "Times New Roman", Times, serif;
+  display: flex;
+  height: 43px;
+  width: 90px;
+  background-color: #af034f;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  box-shadow: inset #4c191b -2px -3px 4px 0.5px;
+  color: #ecfff8;
   font-size: 16px;
-  color: #fff;
-  margin-bottom: 10px;
-  width: fit-content;
 }
+
 main #Button-next:hover {
-  background-color: #4c191b;
+  box-shadow: inset #4c191b 2px 3px 4px 0.5px;
+}
+
+main #Button-next:active {
+  box-shadow: inset #4c191b 2px 3px 4px 4px;
+}
+
+main #secondsection {
+  gap: 10px;
+}
+
+main {
+  margin: 50px 0;
 }
