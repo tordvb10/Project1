@@ -28,6 +28,7 @@ main h1 {
   font-weight: 400;
   line-height: normal;
   color: black;
+  margin-bottom: 0px;
 }
 
 main h2 {
@@ -38,6 +39,7 @@ main h2 {
   font-weight: 400;
   line-height: normal;
   color: black;
+  margin-top: 0px;
 }
 
 main p {
