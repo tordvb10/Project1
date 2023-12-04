@@ -50,3 +50,18 @@ main .buy:hover {
 main .buy:active {
   box-shadow: inset #4c191b 2px 3px 4px 4px;
 }
+
+main h1,
+main h5 {
+  font-weight: 400;
+}
+main h1 {
+  font-family: "Inria Serif", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 36px;
+}
+main h5 {
+  font-family: "Inria Sans", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
