@@ -1,0 +1,30 @@
+main section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 81px 0;
+}
+main section > * {
+  justify-content: center;
+  align-items: center;
+}
+main .center1 {
+  width: 60%;
+}
+main .info,
+main img {
+  width: 50%;
+  height: auto;
+}
+
+main img {
+  border-radius: 5px;
+  border: #4c191b solid 1px;
+  padding: 0;
+}
+
+main .center2,
+main .object {
+  gap: 30px;
+}
