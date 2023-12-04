@@ -6,18 +6,7 @@
   margin-right: auto;
 }
 
-#smiley {
+main #smiley {
   width: 1041px;
   height: 315px;
-}
-
-main {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.inputbox {
-  margin-bottom: 5px;
 }
