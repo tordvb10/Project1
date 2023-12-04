@@ -3,14 +3,16 @@ main .inputbox {
   height: 215px;
   border: 1px solid #a7034b;
   border-radius: 5px;
+  resize: none;
 }
 main section > * {
   justify-content: center;
   align-items: center;
 }
+
 main #smiley {
-  width: cover;
-  height: 315px;
+  width: 70%;
+  height: auto;
 }
 main button {
   border-radius: 10px;
@@ -21,7 +23,10 @@ main button {
   align-items: center;
   background: #af034f;
 }
-main h1 {
+main #Button-next,
+main p,
+main h1,
+main h2 {
   text-align: center;
   font-family: "Julee", "Inter", "Times New Roman", Times, serif;
   font-size: 48px;
@@ -30,36 +35,23 @@ main h1 {
   line-height: normal;
   color: black;
   margin-bottom: 0px;
+  width: 70%;
 }
 
 main h2 {
-  text-align: center;
-  font-family: Julee;
   font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  color: black;
-  margin-top: 0px;
 }
 
 main p {
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  color: black;
-  width: 70%;
-  text-align: center;
+  font-family: "Inter", "Times New Roman", Times, serif;
 }
 main #Button-next {
-  text-align: center;
+  font-family: "Inter", "Times New Roman", Times, serif;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   color: #fff;
   margin-bottom: 10px;
+  width: fit-content;
 }
 main #Button-next:hover {
   background-color: #4c191b;
