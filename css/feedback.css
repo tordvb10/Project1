@@ -2,6 +2,7 @@ main .inputbox {
   width: 70%;
   height: 215px;
   border: 1px solid #a7034b;
+  border-radius: 5px;
 }
 main section > * {
   justify-content: center;
