@@ -62,4 +62,5 @@ main #Button-next {
   margin-bottom: 10px;
 }
 main #Button-next:hover {
+  background-color: #4c191b;
 }
