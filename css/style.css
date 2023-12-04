@@ -103,13 +103,17 @@ footer .footer-containers div {
   color: #ecfff8;
 }
 
+footer .footer-content,
 footer .footer-title {
   font-weight: 400;
+  text-align: center;
+}
+
+footer .footer-title {
   font-size: 30px;
 }
 
 footer .footer-content {
-  font-weight: 400;
   font-size: 15px;
 }
 
@@ -123,5 +127,12 @@ main {
   }
   header #LogoAvCraftvillalink {
     margin-left: 0;
+  }
+  footer .footerskip {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  footer {
+    height: 264px;
   }
 }
