@@ -1,0 +1,85 @@
+main {
+  margin: 56px auto;
+  justify-content: center;
+  align-items: center;
+}
+main h1,
+main h4,
+main h5 {
+  text-align: center;
+  margin: 0;
+  font-family: "Inria Serif", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+main h4 {
+  font-size: 18px;
+  font-family: "Inria Sans", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+main h5 {
+  font-size: 20px;
+}
+main .shop h1 {
+  color: #af034f;
+}
+main img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: #4c191b solid 1px;
+  padding: 0;
+}
+
+main section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 85%;
+  gap: 31px;
+  margin: 81px 0;
+}
+main .testimonials,
+main #testimonial,
+.padding {
+  gap: 31px;
+}
+main .testimonials {
+  background-color: #ecfff8;
+  height: 80%;
+  width: 69.4%;
+  padding: 30px 10%;
+}
+main section > * {
+  justify-content: center;
+  align-items: center;
+}
+
+main #contentshop h1,
+main .imgshop {
+  max-width: 230px;
+  height: auto;
+}
+main #contentshop h4 {
+  max-width: 314px;
+  height: auto;
+}
+
+main #contentshop {
+  width: 90%;
+  height: auto;
+  gap: 30px;
+}
+
+main .shop {
+  padding: 20px 30px;
+}
+main .imgshop {
+  gap: 25%;
+}
+main #location {
+  width: 70%;
+}
