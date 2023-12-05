@@ -1,7 +1,22 @@
+/*
+- How styling is used in each webpage is specified in each of its html-file.
+- This is the main style.css file, alle webpages are linked to this styling.
+- In order to not get any pseudo selector conflict, all pseudo selectors starts with either "header", "main", or "footer". 
+- Footer and header are specified in this document because its the common styling for all webpage. 
+- Those pseudo selectors which do not include either "header", "main", or "footer", are classes that are used throughout all the
+    webpages to minimize amount coded text, and for easier understanding of the html-files.
+*/
+
+/*
+- To make the job of designing webpages easier, classes here are defined here to be used on the html-files,
+    which contains the most common type of styling used.
+*/
+
+/*Uses inter as font*/
 .interfamily {
   font-family: "Inter", "Times New Roman", Times, serif;
 }
-
+/*flex-styling for classes start*/
 .contentwrap {
   flex-wrap: wrap;
 }
@@ -18,7 +33,31 @@
   justify-content: center;
   align-items: center;
 }
+/*flex-styling for classes end*/
+/*button-styling for classes start*/
+.TVHKNAPPER {
+  display: flex;
+  height: 39px;
+  background-color: #af034f;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  box-shadow: inset #4c191b -2px -3px 4px 0.5px;
+  text-decoration: none;
+  color: #ecfff8;
+  font-weight: 400;
+  font-size: 12px;
+}
 
+.TVHKNAPPER:hover {
+  box-shadow: inset #4c191b 2px 3px 4px 0.5px;
+}
+
+.TVHKNAPPER:active {
+  box-shadow: inset #4c191b 2px 3px 4px 4px;
+}
+/*button-styling for classes end*/
+/*standard and common-styling for all webpages start*/
 html,
 body {
   margin: 0;
@@ -47,28 +86,6 @@ body {
 header #menubuttons {
   width: 410px;
   margin: auto 50px;
-}
-
-.TVHKNAPPER {
-  display: flex;
-  height: 39px;
-  background-color: #af034f;
-  align-items: center;
-  justify-content: center;
-  border-radius: 25px;
-  box-shadow: inset #4c191b -2px -3px 4px 0.5px;
-  text-decoration: none;
-  color: #ecfff8;
-  font-weight: 400;
-  font-size: 12px;
-}
-
-.TVHKNAPPER:hover {
-  box-shadow: inset #4c191b 2px 3px 4px 0.5px;
-}
-
-.TVHKNAPPER:active {
-  box-shadow: inset #4c191b 2px 3px 4px 4px;
 }
 
 header #gallery {
@@ -128,6 +145,10 @@ footer .footer-content {
 main {
   flex-direction: column;
 }
+
+/*standard and common-styling for all webpages end*/
+
+/*@media takes care for when the webpage width decrease.*/
 
 @media only screen and (max-width: 600px) {
   header {
