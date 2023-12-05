@@ -76,6 +76,7 @@ main #contentshop {
 
 main .shop {
   padding: 20px 30px;
+  align-self: flex-start;
 }
 main .imgshop {
   gap: 25%;
