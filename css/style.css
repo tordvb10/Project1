@@ -49,7 +49,7 @@ header #menubuttons {
   margin: auto 50px;
 }
 
-header .menulinks {
+.TVHKNAPPER {
   display: flex;
   height: 39px;
   background-color: #af034f;
@@ -63,11 +63,11 @@ header .menulinks {
   font-size: 12px;
 }
 
-header .menulinks:hover {
+.TVHKNAPPER:hover {
   box-shadow: inset #4c191b 2px 3px 4px 0.5px;
 }
 
-header .menulinks:active {
+.TVHKNAPPER:active {
   box-shadow: inset #4c191b 2px 3px 4px 4px;
 }
 

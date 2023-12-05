@@ -19,28 +19,29 @@ main #booking {
   align-items: center;
   gap: 24px;
 }
-#logo_box {
+main #logo_box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-#logo_box #booking_logo {
+main #logo_box #booking_logo {
   width: 155px;
   border-radius: 5px;
+  border: 1px solid #4c191b;
 }
-#booking_title {
+main #booking_title {
   display: flex;
   padding: 0 50px;
   align-items: center;
 }
-#booking_title h1 {
+main #booking_title h1 {
   color: #fff;
   font-size: 30px;
   text-align: center;
   line-height: normal;
 }
-#booking-container {
+main #booking-container {
   display: flex;
   flex-wrap: wrap;
   padding: 4 0px;
@@ -48,7 +49,7 @@ main #booking {
   justify-content: center;
   gap: 30px;
 }
-#booking-form {
+main #booking-form {
   display: flex;
   width: fit-content;
   height: fit-content;
@@ -61,7 +62,7 @@ main #booking {
   background-color: #fff;
   gap: 7px;
 }
-.item-con {
+main .item-con {
   display: flex;
   flex-direction: row;
   width: auto;
@@ -69,7 +70,7 @@ main #booking {
   padding: 6px 0;
   align-items: center;
 }
-.item-con p {
+main .item-con p {
   color: #121212;
   text-align: center;
   font-family: sans-serif;
@@ -77,20 +78,20 @@ main #booking {
   font-weight: 400;
   line-height: normal;
 }
-.item-con #name-input {
+main .item-con #name-input {
   padding: 7px 12px;
   width: 92px;
   height: fit-content;
   border: 1px solid #af034f;
   border-radius: 11px;
 }
-.item-con .date-input {
+main .item-con .date-input {
   padding: 7px 12px;
   width: 92px;
   border: 1px solid #af034f;
   border-radius: 11px;
 }
-.item-con input {
+main .item-con input {
   border: 1px solid #af034f;
   border-radius: 11px;
   padding: 7px 11px;
@@ -99,72 +100,65 @@ main #booking {
   text-align: center;
   font-size: 12px;
 }
-#name #name-con {
+main #name #name-con {
   display: flex;
   align-items: center;
   gap: 24px;
 }
-#date #date-con {
+main #date #date-con {
   display: flex;
   align-items: center;
   gap: 24px;
 }
-#artform select {
+main #artform select {
   padding: 7px 12px;
   width: 200px;
   height: fit-content;
   border: 1px solid #af034f;
   border-radius: 11px;
 }
-#e-mail {
+main #e-mail {
   gap: 40px;
 }
-#name {
+main #name {
   gap: 93px;
 }
-#tlf {
+main #tlf {
   gap: 13px;
 }
-#mobile {
+main #mobile {
   gap: 35px;
 }
-#participants {
+main #participants {
   gap: 55px;
 }
-#date {
+main #date {
   gap: 40px;
 }
 #artform {
   gap: 67px;
 }
-#img-btn {
+main #img-btn {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-start;
   gap: 17px;
 }
-#img-btn img {
+main #img-btn img {
   width: 142px;
   height: 232px;
   border: 2px solid #4c191b;
   border-radius: 23px;
 }
-#img-btn #booknow a {
+main #img-btn #booknow {
   text-decoration: none;
   color: #fff;
   font-size: 20px;
   text-align: center;
-}
-#img-btn #booknow {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #4c191b;
   width: 142px;
   height: 65px;
   border-radius: 26px;
-}
-.kaisei {
-  font-family: "Kaisei Opti", serif;
+  font-family: "Kaisei Opti", "Inter", "Times New Roman", Times, serif;
+  border: #4c191b 1px solid;
 }
