@@ -1,3 +1,5 @@
+/*This is a textarea where u can input text*/
+
 main .inputbox {
   width: 70%;
   height: 215px;
@@ -14,6 +16,8 @@ main #smiley {
   width: 70%;
   height: auto;
 }
+
+/*Used styling from the class "TVHKNAPPER" on this button*/
 main button {
   border-radius: 10px;
   width: 90px;
