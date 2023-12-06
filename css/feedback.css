@@ -1,5 +1,4 @@
 /*This is a textarea where u can input text*/
-
 main .inputbox {
   width: 70%;
   height: 215px;
@@ -7,11 +6,12 @@ main .inputbox {
   border-radius: 5px;
   resize: none;
 }
+/*Centered the main section*/
 main section > * {
   justify-content: center;
   align-items: center;
 }
-
+/*Picture of smileyfaces*/
 main #smiley {
   width: 70%;
   height: auto;
@@ -27,6 +27,7 @@ main button {
   align-items: center;
   background: #af034f;
 }
+/*Styling to the following elements*/
 main #Button-next,
 main p,
 main h1,
@@ -50,6 +51,7 @@ main p {
   font-size: 16px;
   font-family: "Inter", "Times New Roman", Times, serif;
 }
+/*Styling for the "next-button"*/
 main #Button-next {
   font-family: "Inter", "Times New Roman", Times, serif;
   height: 43px;
