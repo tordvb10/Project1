@@ -1,6 +1,7 @@
 * {
   margin: 0;
 }
+
 main {
   height: auto;
   padding: 20px;
@@ -9,6 +10,7 @@ main {
   justify-content: center;
   flex-direction: row;
 }
+/* This is the start of the booking section*/
 main #booking {
   background-color: #af034f;
   padding: 13px 9px;
@@ -19,6 +21,7 @@ main #booking {
   align-items: center;
   gap: 24px;
 }
+/* LOGO STYLING*/
 main #logo_box {
   display: flex;
   flex-direction: column;
@@ -28,8 +31,8 @@ main #logo_box {
 main #logo_box #booking_logo {
   width: 155px;
   border-radius: 5px;
-  border: 1px solid #4c191b;
 }
+/*Title to the form*/
 main #booking_title {
   display: flex;
   padding: 0 50px;
@@ -41,6 +44,10 @@ main #booking_title h1 {
   text-align: center;
   line-height: normal;
 }
+/* 
+This is a flex box container that holds the form container,
+ button and image container and changes their direction to row 
+ */
 main #booking-container {
   display: flex;
   flex-wrap: wrap;
@@ -49,6 +56,7 @@ main #booking-container {
   justify-content: center;
   gap: 30px;
 }
+/* FILLING FORM */
 main #booking-form {
   display: flex;
   width: fit-content;
@@ -62,6 +70,7 @@ main #booking-form {
   background-color: #fff;
   gap: 7px;
 }
+/* flex box container for the p and input tags*/
 main .item-con {
   display: flex;
   flex-direction: row;
@@ -69,6 +78,7 @@ main .item-con {
   height: auto;
   padding: 6px 0;
   align-items: center;
+  justify-content: space-between;
 }
 main .item-con p {
   color: #121212;
@@ -78,19 +88,7 @@ main .item-con p {
   font-weight: 400;
   line-height: normal;
 }
-main .item-con #name-input {
-  padding: 7px 12px;
-  width: 92px;
-  height: fit-content;
-  border: 1px solid #af034f;
-  border-radius: 11px;
-}
-main .item-con .date-input {
-  padding: 7px 12px;
-  width: 92px;
-  border: 1px solid #af034f;
-  border-radius: 11px;
-}
+/*Styling that targets all input tags inside of the container*/
 main .item-con input {
   border: 1px solid #af034f;
   border-radius: 11px;
@@ -100,16 +98,34 @@ main .item-con input {
   text-align: center;
   font-size: 12px;
 }
+/* Specific styling for the name input tags */
+main .item-con #name-input {
+  padding: 7px 12px;
+  width: 92px;
+  height: fit-content;
+  border: 1px solid #af034f;
+  border-radius: 11px;
+}
+/*flex box container for both first and last name input tags*/
 main #name #name-con {
   display: flex;
   align-items: center;
   gap: 24px;
 }
+/* Specific styling for the Date and time input tags*/
+main .item-con .date-input {
+  padding: 7px 12px;
+  width: 92px;
+  border: 1px solid #af034f;
+  border-radius: 11px;
+}
+/*flex box container for both the p tags, date and time input tags*/
 main #date #date-con {
   display: flex;
   align-items: center;
   gap: 24px;
 }
+/*Targets the select tag styling for the art forms*/
 main #artform select {
   padding: 7px 12px;
   width: 200px;
@@ -117,27 +133,8 @@ main #artform select {
   border: 1px solid #af034f;
   border-radius: 11px;
 }
-main #e-mail {
-  gap: 40px;
-}
-main #name {
-  gap: 93px;
-}
-main #tlf {
-  gap: 13px;
-}
-main #mobile {
-  gap: 35px;
-}
-main #participants {
-  gap: 55px;
-}
-main #date {
-  gap: 40px;
-}
-#artform {
-  gap: 67px;
-}
+
+/*Flex box that targets the styling and positioning of the calender image and button*/
 main #img-btn {
   display: flex;
   flex-wrap: wrap;
