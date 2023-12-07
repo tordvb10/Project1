@@ -59,8 +59,8 @@ main #booking-container {
 /* FILLING FORM */
 main #booking-form {
   display: flex;
-  width: fit-content;
-  height: fit-content;
+  width: auto;
+  height: auto;
   border-radius: 20px;
   border: 3px solid #4c191b;
   padding: 13px 31px;
