@@ -3,6 +3,9 @@ main {
   justify-content: center;
   align-items: center;
 }
+main p {
+  width: 80%;
+}
 main h1,
 main h4,
 main h5 {
